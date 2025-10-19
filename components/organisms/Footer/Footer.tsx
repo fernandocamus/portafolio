@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
-import SocialIcon from "../../molecules/Footer/RedesSociales";
+import SocialIcon from "../../atoms/RedesSociales/RedesSociales";
 
 export default function Footer() {
     const Contacto = [

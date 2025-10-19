@@ -1,28 +1,35 @@
 import React from 'react'
-import {Typography} from "antd";
+import { Typography } from "antd";
 
 const { Title, Paragraph } = Typography;
+
 const SobreMi = () => {
     return (
-        <>
-            <Title level={1} style={{ fontWeight: "bold", color:"white", marginBottom: 0, marginTop: 0 }}>
-              Hola, mi nombre es Fernando Camus
+        <div className="w-full max-w-4xl border border-gray-400 dark:border-gray-700 rounded-2xl p-10 bg-gray-100 dark:bg-gray-900 backdrop-blur-sm">
+            <Title level={2} className="!text-fuchsia-600 !text-4xl font-bold mb-6 text-left">
+                Sobre mí
             </Title>
 
-            <Title level={5} style={{ fontWeight: "normal", color:"white", textAlign: "center", marginTop: 4, marginBottom: 16 }}>
-                Actualmente curso el 4º semestre de Ingeniería en Informática
-            </Title>
-
-            <Paragraph style={{ fontSize: "16px", maxWidth: "600px", margin: "60px auto 10px auto", color:"white", textAlign: "justify" }}>
-                Soy estudiante de Ingeniería en Informática, apasionado por la tecnología y la programación.
+            <Paragraph className="!text-gray-800 dark:!text-gray-200 !text-lg  text-justify mb-4">
+                Apasionado por la tecnología y la programación. Poseo competencia en
+                diversas tecnologías y lenguajes de programación, como
+                <span className="text-fuchsia-600"> HTML</span>,
+                <span className="text-fuchsia-600"> JavaScript</span>,
+                <span className="text-fuchsia-600"> React</span>,
+                <span className="text-fuchsia-600"> Python</span>,
+                <span className="text-fuchsia-600"> SQL</span> y demás.
             </Paragraph>
 
-            <Paragraph style={{ fontSize: "16px", maxWidth: "600px", margin: "10px auto 20px auto", color:"white", textAlign: "justify" }}>
-                Estoy enfocado en fortalecer mis habilidades técnicas y contribuir a proyectos que promuevan el desarrollo.
-                Busco aprender y crecer tanto a nivel profesional como personal, aplicando y expandiendo mis conocimientos en programación y en la creación de soluciones tecnológicas seguras y efectivas.
+            <Paragraph className="!text-gray-800 dark:!text-gray-200 !text-lg text-base text-justify">
+                Soy una persona profesional, altamente motivado y comprometido con estar
+                siempre a la vanguardia. Busco constantemente <span className="text-fuchsia-600"> fortalecer mis habilidades </span>
+                técnicas y contribuir a proyectos que promuevan el desarrollo. Me
+                esfuerzo por aprender y crecer tanto a nivel profesional como personal,
+                aplicando y expandiendo mis conocimientos en programación y en la
+                creación de <span className="text-fuchsia-600"> soluciones tecnológicas seguras y efectivas</span>.
             </Paragraph>
-        </>
-    )
-}
+        </div>
+    );
+};
 
-export default SobreMi
+export default SobreMi;

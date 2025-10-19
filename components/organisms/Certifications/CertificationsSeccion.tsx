@@ -9,6 +9,7 @@ const certificaciones = [
 const CertificacionesSeccion = () => {
     return (
         <section className="w-full pt-2 pb-8 flex flex-col items-center">
+            <h2 className="text-fuchsia-600 text-4xl font-bold mb-4">Certificaciones</h2>
             <CertificacionesGrilla certificaciones={certificaciones} />
         </section>
     );

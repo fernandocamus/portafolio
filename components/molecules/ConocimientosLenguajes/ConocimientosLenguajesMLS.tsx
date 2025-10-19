@@ -24,7 +24,9 @@ const ConocimientosLenguajes = ()=> {
     ];
 
     return (
+
         <div className="flex flex-col md:flex-row gap-8 justify-center items-center py-8">
+
             {conocimientosData .map((conocimiento, index) => (
                 <div key={index} className={`transition-all duration-300 ease-out ${hoveredIndex !== null && hoveredIndex !== index ? 'scale-90 opacity-70' : 'scale-100 opacity-100'}`}>
                     <ConocimientosLenguajesIcon

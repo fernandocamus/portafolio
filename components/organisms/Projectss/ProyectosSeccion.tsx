@@ -7,7 +7,7 @@ const projects = [
     title: "Tienda - Huerto Hogar",
     description:
       "Proyecto universitario: Web app para una tienda con sistema de registro en LocalStorage, visualización de productos y sistema de compras con su respectivo seguimiento y calificacion de compra.",
-    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     projectLink: "https://github.com/fernandocamus/FSII-EP-1.git",
   },
   {
@@ -19,29 +19,27 @@ const projects = [
     projectLink: "https://github.com/fernandocamusr/MPINGU",
   },
   {
-    image: "../assets/images/MPINGUProyecto.png",
-    title: "Juego - MPINGU",
+    image: "../assets/images/PortafolioProyecto.png",
+    title: "Pagina Web - Portafolio",
     description:
-      "Proyecto personal: Juego 2D tipo endless runner creado en Unity.",
-    technologies: ["Unity", "C#"],
-    projectLink: "https://github.com/fernandocamusr/MPINGU",
+      "Proyecto universitario: Portafolio personal creado en React y Tailwind CSS, aplicando atom design y componentes reutilizables.",
+    technologies: ["React", "TypeScript"],
+    projectLink: "https://github.com/fernandocamus/portafolio",
   },
 
 ];
 
 const ProjectsSection = () => {
-  return (
-    <section className="w-full pt-10 pb-16 flex flex-col items-center">
-      <h2 className="text-gray-800 dark:text-gray-100 text-4xl font-bold mb-2">
-        Proyectos desarrollados
-      </h2>
-      <p className="text-gray-500 dark:text-gray-300 mb-10 text-center max-w-xl">
-        Explora los proyectos que he desarrollado, transformando ideas en
-        soluciones temporales mediante la tecnologia y el diseño
-      </p>
-      <ProjectsGrid projects={projects} />
-    </section>
-  );
+    return (
+        <section className="w-full pt-10 pb-16 flex flex-col items-center">
+            <h2 className="text-fuchsia-600 text-4xl font-bold mb-2">Proyectos desarrollados</h2>
+            <p className="text-gray-500 dark:text-gray-300 mb-10 text-center max-w-xl">
+                Explora los proyectos que he desarrollado, transformando ideas en
+                soluciones temporales mediante la tecnologia y el diseño
+            </p>
+            <ProjectsGrid projects={projects} />
+        </section>
+    );
 };
 
 export default ProjectsSection;

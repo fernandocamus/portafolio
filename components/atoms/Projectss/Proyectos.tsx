@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({image, title, description, tec
                         href={projectLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-3 py-2 text-sm bg-black dark:bg-gray-950 text-white rounded-md hover:opacity-80"
+                        className="px-3 py-2 text-sm bg-fuchsia-600 dark:bg-fuchsia-600 text-white rounded-md hover:opacity-80"
                     >
                         Ver en GitHub
                     </a>
