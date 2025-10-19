@@ -4,7 +4,8 @@ import SocialIcon from "../../molecules/Footer/RedesSociales";
 export default function Footer() {
     const Contacto = [
         { Icon: FaLinkedin, href: "https://www.linkedin.com/in/fernando-camus-rojas-3513a1307", label: "LinkedIn" },
-        { Icon: FaGithubSquare, href: "https://github.com/fernandocamus?tab=repositories", label: "GitHub" }
+        { Icon: FaGithubSquare, href: "https://github.com/fernandocamusr", label: "GitHub" },
+        { Icon: FaGithubSquare, href: "https://github.com/fernandocamus", label: "GitHub" }
     ];
 
     return (

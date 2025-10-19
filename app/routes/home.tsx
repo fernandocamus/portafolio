@@ -3,8 +3,8 @@ import HomeLayout from "../../components/layouts/home/HomeLayout";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Portafolio | Fernando Camus" },
+    { name: "description", content: "Portafolio de Fernando Camus" },
   ];
 }
 

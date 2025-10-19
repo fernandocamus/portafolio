@@ -1,9 +1,9 @@
 import React from 'react'
-import SobreMi from "../../molecules/SobreMi/SobreMi";
+import SobreMi from "../../molecules/AboutMe/SobreMi";
 
 const SobreMiBanner = () => {
   return (
-    <div className="relative rounded-lg my-10 md:my-20 mx-4 md:mx-20 text-center py-16 md:py-24 px-5 text-white">
+    <div className="relative rounded-lg mx-4 md:mx-20 text-center px-5 text-white">
       <SobreMi />
     </div>
   )
