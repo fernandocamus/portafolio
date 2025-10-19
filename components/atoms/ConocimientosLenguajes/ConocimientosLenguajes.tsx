@@ -2,11 +2,11 @@ import React from "react";
 import type {IconType} from "react-icons";
 
 interface ConocimientosLenguajesProps {
-  Icon: IconType;
-  label: string;
-  isHovered: boolean;
-  onHover: () => void;
-  onLeave: () => void;
+    Icon: IconType;
+    label: string;
+    isHovered: boolean;
+    onHover: () => void;
+    onLeave: () => void;
 }
 
 const ConocimientosLenguajes: React.FC<ConocimientosLenguajesProps> = ({ Icon, label, isHovered, onHover, onLeave }) => {
