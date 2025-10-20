@@ -14,7 +14,7 @@ const projects = [
         image: "../assets/images/MPINGUProyecto.png",
         title: "Juego - MPINGU",
         description:
-            "Proyecto personal: Juego 2D tipo endless runner creado en Unity.",
+            "Proyecto personal: Juego 2D tipo endless runner inspirado en el clásico Dino de Chrome, desarrollado en Unity con mecánicas de salto, esquive de obstáculos, sistema de puntuación y dificultad progresiva.",
         technologies: ["Unity", "C#"],
         projectLink: "https://github.com/fernandocamusr/MPINGU",
     },
@@ -30,9 +30,9 @@ const projects = [
         image: "../assets/images/SistemaDeMicroservicios.png",
         title: "Pagina Web - Sistema de Microservicios",
         description:
-            "Proyecto universitario: .",
+            "Proyecto universitario: Sistema de gestión de clientes desarrollado con arquitectura de microservicios, implementando operaciones CRUD completas, documentación de API con Swagger y comunicación entre servicios..",
         technologies: ["Java", "Spring Boot", "Swagger"],
-        projectLink: "https://github.com/fernandocamus/portafolio",
+        projectLink: "https://github.com/fernandocamus/perfulandiaSPA-EF1",
     },
 ];
 
