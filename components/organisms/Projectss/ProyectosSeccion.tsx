@@ -32,7 +32,7 @@ const ProyectosSeccion = () => {
             </p>
             <ProyectosGrilla projects={proyectos} />
 
-            <Link to="/projectss" className="mt-8 px-6 py-3 bg-fuchsia-600 text-white font-semibold rounded-lg hover:bg-fuchsia-700 transition">
+            <Link to="/proyectos" className="mt-8 px-6 py-3 bg-fuchsia-600 text-white font-semibold rounded-lg hover:bg-fuchsia-700 transition">
                 Ver más proyectos
             </Link>
         </section>
