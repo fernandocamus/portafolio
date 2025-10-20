@@ -9,7 +9,7 @@ import HeroSeccion from "../../organisms/Hero/HeroSeccion"
 
 const HomeLayout = ()=> {
     return (
-        <div className="flex flex-col items-center min-h-screen bg-white dark:bg-gray-950 transition-colors">
+        <div className="flex flex-col items-center min-h-screen bg-white dark:bg-gray-950">
             <header className="fixed top-0 left-0 w-full z-50 border-b border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-950 shadow-sm">
                 <HeaderSeccion/>
             </header>

@@ -14,7 +14,7 @@ const BotonNavegacion: React.FC<BotonNavegacionProps> = ({ label, targetId }) =>
     };
 
     return (
-        <button onClick={Click} className="bg-transparent text-gray-600 dark:text-gray-200 px-2 py-1 md:px-4 md:py-2 rounded text-sm md:text-base hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors whitespace-nowrap">
+        <button onClick={Click} className="bg-transparent text-gray-600 dark:text-gray-200 px-2 py-1 md:px-4 md:py-2 rounded text-sm md:text-base hover:bg-gray-200 dark:hover:bg-gray-700 whitespace-nowrap">
             {label}
         </button>
     );
