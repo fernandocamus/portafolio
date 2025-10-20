@@ -6,6 +6,7 @@ import HeaderSeccion from "../../organisms/Header/HeaderSeccion";
 import CertificacionesSeccion from "../../organisms/Certifications/CertificationsSeccion";
 import ProyectosSeccion from "../../organisms/Projectss/ProyectosSeccion";
 import HeroSeccion from "../../organisms/Hero/HeroSeccion"
+import {ProyectosBoton} from "../../atoms/Projectss/ProyectosBoton";
 
 const HomeLayout = ()=> {
     return (
@@ -13,8 +14,8 @@ const HomeLayout = ()=> {
             <header className="fixed top-0 left-0 w-full z-50 border-b border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-950 shadow-sm">
                 <HeaderSeccion/>
             </header>
-
-            <section id="hero" className="flex flex-col items-center">
+            <ProyectosBoton />
+          <section id="hero" className="flex flex-col items-center">
                 <HeroSeccion/>
             </section>
 

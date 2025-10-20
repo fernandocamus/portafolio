@@ -1,8 +1,7 @@
 import React from "react";
 import ProyectosGrilla from "../../molecules/Projectss/ProyectosGrilla";
-import { Link } from "react-router";
 
-const proyectos = [
+const projects = [
     {
         image: "../assets/images/HuertoHogarProyecto.png",
         title: "Tienda - Huerto Hogar",
@@ -12,6 +11,14 @@ const proyectos = [
         projectLink: "https://github.com/fernandocamus/FSII-EP-1.git",
     },
     {
+        image: "../assets/images/MPINGUProyecto.png",
+        title: "Juego - MPINGU",
+        description:
+            "Proyecto personal: Juego 2D tipo endless runner creado en Unity.",
+        technologies: ["Unity", "C#"],
+        projectLink: "https://github.com/fernandocamusr/MPINGU",
+    },
+    {
         image: "../assets/images/PortafolioProyecto.png",
         title: "Pagina Web - Portafolio",
         description:
@@ -19,24 +26,15 @@ const proyectos = [
         technologies: ["React", "TypeScript"],
         projectLink: "https://github.com/fernandocamus/portafolio",
     },
-
 ];
 
-const ProyectosSeccion = () => {
+const TodosLosProyectos = () => {
     return (
         <section className="w-full pt-10 pb-16 flex flex-col items-center">
-            <h2 className="text-fuchsia-600 text-4xl font-bold mb-2">Proyectos desarrollados</h2>
-            <p className="text-gray-500 dark:text-gray-300 mb-10 text-center max-w-xl">
-                Explora los proyectos que he desarrollado, transformando ideas en
-                soluciones temporales mediante la tecnologia y el diseño
-            </p>
-            <ProyectosGrilla projects={proyectos} />
-
-            <Link to="/projectss" className="mt-8 px-6 py-3 bg-fuchsia-600 text-white font-semibold rounded-lg hover:bg-fuchsia-700 transition">
-                Ver más proyectos
-            </Link>
+            <h2 className="text-fuchsia-600 text-4xl font-bold mb-10">Todos los Proyectos</h2>
+            <ProyectosGrilla projects={projects} />
         </section>
     );
 };
 
-export default ProyectosSeccion;
+export default TodosLosProyectos;
