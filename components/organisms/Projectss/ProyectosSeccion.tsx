@@ -16,7 +16,7 @@ const proyectos = [
         title: "Pagina Web - Portafolio",
         description:
             "Proyecto universitario: Portafolio personal creado en React y Tailwind CSS, aplicando atom design y componentes reutilizables.",
-        technologies: ["React", "TypeScript"],
+        technologies: ["React", "TypeScript", "Tailwind CSS", "CSS"],
         projectLink: "https://github.com/fernandocamus/portafolio",
     },
 

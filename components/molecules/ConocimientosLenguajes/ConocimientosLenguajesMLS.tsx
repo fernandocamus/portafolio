@@ -1,5 +1,5 @@
 import {FaHtml5, FaCss3Alt, FaUnity, FaPython, FaJsSquare, FaJava, FaReact, FaGithubSquare} from "react-icons/fa";
-import { SiMysql, SiSpringboot, SiTypescript} from "react-icons/si";
+import { SiMysql, SiSpringboot, SiTypescript, SiSwagger, SiTailwindcss} from "react-icons/si";
 import { PiFileCSharp } from "react-icons/pi";
 import ConocimientosLenguajesIcon from "../../atoms/ConocimientosLenguajes/ConocimientosLenguajes";
 import { useState } from "react";
@@ -20,12 +20,14 @@ const ConocimientosLenguajes = ()=> {
         {Icon: SiSpringboot, label: "Spring Boot"},
         {Icon: FaUnity, label: "Unity"},
         {Icon: SiMysql, label: "MySql"},
-        {Icon: FaGithubSquare, label: "Git/GitHub"}
+        {Icon: FaGithubSquare, label: "Git/GitHub"},
+        {Icon: SiTailwindcss, label: "Tailwind CSS"},
+        {Icon: SiSwagger, label: "Swagger"}
     ];
 
     return (
 
-        <div className="flex flex-col md:flex-row gap-8 justify-center items-center py-8">
+        <div className="flex flex-col md:flex-row flex-wrap justify-center items-center py-8">
 
             {conocimientosData .map((conocimiento, index) => (
                 <div key={index} className={`transition-all duration-300 ease-out ${hoveredIndex !== null && hoveredIndex !== index ? 'scale-90 opacity-70' : 'scale-100 opacity-100'}`}>
