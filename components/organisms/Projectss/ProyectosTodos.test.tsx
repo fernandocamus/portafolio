@@ -57,7 +57,7 @@ describe('TodosLosProyectos', () => {
     it('debe renderizar las descripciones de los proyectos', () => {
         render(<TodosLosProyectos />);
         expect(screen.getByText(/Web app para una tienda con sistema de registro/i)).toBeInTheDocument();
-        expect(screen.getByText(/Juego 2D tipo endless runner creado en Unity/i)).toBeInTheDocument();
+        expect(screen.getByText(/Juego 2D tipo endless runner inspirado en el clásico Dino de Chrome/i)).toBeInTheDocument();
         expect(screen.getByText(/Portafolio personal creado en React y Tailwind CSS/i)).toBeInTheDocument();
     });
 
@@ -115,6 +115,6 @@ describe('TodosLosProyectos', () => {
         expect(links[0]).toHaveAttribute('href', 'https://github.com/fernandocamus/FSII-EP-1.git');
         expect(links[1]).toHaveAttribute('href', 'https://github.com/fernandocamusr/MPINGU');
         expect(links[2]).toHaveAttribute('href', 'https://github.com/fernandocamus/portafolio');
-        expect(links[3]).toHaveAttribute('href', 'https://github.com/fernandocamus/portafolio');
+        expect(links[3]).toHaveAttribute('href', 'https://github.com/fernandocamus/perfulandiaSPA-EF1');
     });
 });
